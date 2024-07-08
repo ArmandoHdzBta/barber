@@ -9,7 +9,7 @@ export default {
 			'anton': ['Anton', 'sans-serif']
 		},
       listStyleImage: {
-        barberPole: 'url("/barber/icons/listBarberPole.svg")',
+        barberPole: "url('/barber/icons/listBarberPole.svg')",
       },
     },
   },
