@@ -1,7 +1,7 @@
 ---
-const { key, name, nickName, description, image, scialMedia } = Astro.props
+const { key, name, nickName, description, image } = Astro.props
 
-const urlFoto = '/img/barberman/' + image;
+const urlFoto = '/barber/img/barberman/' + image;
 ---
 
 <div class={`h-auto flex flex-col ${ key % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row' }`}>

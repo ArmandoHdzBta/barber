@@ -13,7 +13,7 @@
 }
 
 .home_banner {
-    background: linear-gradient(to right, rgba(0,0,0,.05), rgba(0,0,0,.50)), url('/img/banner.webp');
+    background: linear-gradient(to right, rgba(0,0,0,.05), rgba(0,0,0,.50)), url('/barber/img/banner.webp');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@
 }
 
 .team_banner {
-    background: linear-gradient(to right, rgba(0,0,0,.05), rgba(0,0,0,.50)), url('/img/banner_team.jpg');
+    background: linear-gradient(to right, rgba(0,0,0,.05), rgba(0,0,0,.50)), url('/barber/img/banner_team.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@
 }
 
 .services_banner {
-    background: linear-gradient(to right, rgba(0,0,0,.05), rgba(0,0,0,.50)), url('/img/banner_services.jpeg');
+    background: linear-gradient(to right, rgba(0,0,0,.05), rgba(0,0,0,.50)), url('/barber/img/banner_services.jpeg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
