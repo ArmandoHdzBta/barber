@@ -1,0 +1,16 @@
+---
+const { key, name, nickName, description, image, scialMedia } = Astro.props
+
+const urlFoto = '/img/barberman/' + image;
+---
+
+<div class={`h-auto flex flex-col ${ key % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row' }`}>
+    <div class="w-full h-screen">
+        <img src={urlFoto} alt={name} class="w-full h-full object-cover object-top">
+    </div>
+    <div class={`p-10 ${ key % 2 === 0 ? 'text-right' : '' }`}>
+        <p class="text-7xl">{ name }</p>
+        <p class="text-lg mt-3">{ nickName }</p>
+        <p class="mt-7">{ description }</p>
+    </div>
+</div>

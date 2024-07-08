@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Arturo Jose",
+        "nickname": "Arthur",
+        "description": "Arturo Jose is a master barber with over 10 years of experience. He specializes in fades, tapers, and beard trims. He is also a master at straight razor shaves.",
+        "image": "barbero_1.webp",
+        "socialMedia": [
+            "https://instagram.com",
+            "https://tiktok.com"
+        ]
+    },
+    {
+        "name": "Jose",
+        "nickname": "Pepe",
+        "description": "Arturo Jose is a master barber with over 10 years of experience. He specializes in fades, tapers, and beard trims. He is also a master at straight razor shaves.",
+        "image": "barbero_2.jpg",
+        "socialMedia": [
+            "https://instagram.com",
+            "https://tiktok.com"
+        ]
+    },
+    {
+        "name": "Juan",
+        "nickname": "Chencho",
+        "description": "Arturo Jose is a master barber with over 10 years of experience. He specializes in fades, tapers, and beard trims. He is also a master at straight razor shaves.",
+        "image": "barbero_3.webp",
+        "socialMedia": [
+            "https://tiktok.com"
+        ]
+    }
+]

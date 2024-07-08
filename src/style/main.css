@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+
+@layer base {
+  html {
+    font-family: "Open Sans", sans-serif;
+  }
+}
+
+.home_banner {
+    background: linear-gradient(to right, rgba(0,0,0,.05), rgba(0,0,0,.50)), url('/img/banner.webp');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    @apply min-h-svh
+}
+
+.team_banner {
+    background: linear-gradient(to right, rgba(0,0,0,.05), rgba(0,0,0,.50)), url('/img/banner_team.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    @apply min-h-svh
+}
+
+.services_banner {
+    background: linear-gradient(to right, rgba(0,0,0,.05), rgba(0,0,0,.50)), url('/img/banner_services.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    @apply min-h-svh
+}
+
+.active{
+    @apply text-white border-b-2
+}
+
+.link {
+    @apply hover:text-white hover:border-b-2 ease-in-out duration-100 transition-all
+}

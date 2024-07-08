@@ -1,0 +1,47 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+import '../style/main.css'
+const APP_NAME = import.meta.env.PUBLIC_APP_NAME
+const { title } = Astro.props;
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+        <meta name="description" content="Barber Shop" />
+        <meta name="author" content="Armando Hernández" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+		<meta name="generator" content={Astro.generator} />
+		<title>{ APP_NAME } | { title }</title>
+        <ViewTransitions />
+	</head>
+	<body class="bg-black text-white">
+        <header class="w-screen px-5 py-6 h-20 backdrop-blur-sm fixed">
+            <nav class="flex justify-between items-center">
+                <a href="/" class="text-4xl md:ml-5 font-anton tracking-widest">{ APP_NAME }</a>
+                <ul class="flex gap-3 text-slate-200 md:mr-10 md:gap-20">
+                    <li><a class="active link" href="/">Inicio</a></li>
+                    <li><a class="link" href="/services">Servicios</a></li>
+                    <li><a class="link" href="/aboutus">Nosotros</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="w-100">
+            <slot />
+        </div>
+
+        <footer>
+            <div class="w-full text-sm text-white flex justify-center items-center flex-col py-1 mb-3">
+                <p>&copy; { new Date().getFullYear() } { APP_NAME }</p>
+                <p>Desarrollado por <b>Armando Hern&aacute;ndez</b></p>
+            </div>
+        </footer>
+
+        <script src="../assets/js/main.js"></script>
+	</body>
+</html>

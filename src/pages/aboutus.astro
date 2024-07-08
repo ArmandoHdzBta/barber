@@ -1,0 +1,29 @@
+---
+import GuestLayout from '../layouts/GuestLayout.astro';
+import BarberCard from '../components/BarberCard.astro';
+import barbers from '../content/barbersInfo/barbers.json';
+---
+
+<GuestLayout>
+    <div class="team_banner flex justify-center items-center mb-20">
+		<div class="container md:w-1/2 mx-auto px-5 md:px-0 text-center">
+			<h1 class="text-6xl font-anton tracking-widest">Nuestro equipo</h1>
+			<p class="text-2xl">Conoce a los barberos que colaborar con nosotros</p>
+		</div>
+	</div>
+
+    <div class="container mx-auto mb-14">
+        <h1></h1>
+        {barbers.map((barber, i) => {
+            return (
+                <BarberCard key={i}
+                    name={barber.name}
+                    nickName={barber.nickname}
+                    description={barber.description}
+                    image={barber.image}
+                    socialMedia={barber.socialMedia} />
+            )
+        })}
+
+    </div>
+</GuestLayout>

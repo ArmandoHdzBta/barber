@@ -1,16 +1,98 @@
 ---
-
+import GuestLayout from "../layouts/GuestLayout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<GuestLayout title="Inicio">
+	<div class="home_banner flex justify-center items-center mb-20">
+		<div class="container px-5 md:px-0">
+			<h1 class="text-6xl font-bold">Tu estilo, nuestra pasi&oacute;n</h1>
+			<p class="text-2xl">Bienvenido a nustro sitio web</p>
+		</div>
+	</div>
+
+	<div class="w-full">
+		<section id="services">
+			<div class="container mx-auto my-5 mb-20">
+				<h2 class="text-4xl font-anton tracking-widest text-center">Servicios</h2>
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-5 gap-y-5 p-5">
+					<div class="bg-white rounded-lg h-min shadow-lg overflow-hidden md:flex">
+						<div class="w-full md:w-1/2 h-52 md:h-60">
+							<img src="/img/services/corte.jpg" alt="imagen de corte" class="w-full h-full object-cover object-center">
+						</div>
+						
+						<div class="p-5 text-black">
+							<h3 class="text-xl font-bold">Cortes</h3>
+							<p>Cortes y diseños</p>
+							<ul class="list-image-barberPole list-inside">
+								<li>Corte de cabello</li>
+								<li>Peinados</li>
+								<li>Barba</li>
+								<li>Bigote</li>
+								<li>Ceja</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="bg-white rounded-lg h-min shadow-lg overflow-hidden md:flex">
+						<div class="w-full md:w-1/2 h-52 md:h-60">
+							<img src="/img/services/design.jpeg" alt="diseño de cabello" class="w-full h-full object-cover object-top">
+						</div>
+						
+						<div class="p-5 text-black">
+							<h3 class="text-xl font-bold">Cejas</h3>
+							<p>Perfilado y diseño de cejas</p>
+						</div>
+					</div>
+
+					<div class="col-span-1 md:col-span-2 text-center">
+						<a href="/services" class="hover:border-b-2">Ver m&aacute;s</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="my-5 mb-20 w-full h-80 bg-white text-black p-5 flex justify-center items-center">
+				<h1 class="text-6xl font-anton text-center">10% de descuento si muestras la p&aacute;gina</h1>
+			</div>
+		</section>
+
+		<section id="aboutUs">
+			<div class="container mx-auto mb-20 my-5">
+				<h1 class="font-anton tracking-widest text-4xl text-center">Sobre nosotros</h1>
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-0 p-5">
+					<div class="h-full w-full">
+						<img src="/img/banner_aboutus.jpg" alt="imagen barbero">
+					</div>
+					<div class="px-5 py-2">
+						<p class="text-lg">
+							Somos un equipo de jóvenes apasionados por el arte del cuidado personal y el estilo. En nuestra barbería, la innovación y la tradición se combinan para ofrecerte una experiencia única que refleja las últimas tendencias y técnicas, sin perder de vista los valores clásicos de la barbería.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<section>
+			<div class="container mx-auto my-14 px-5">
+				<h1 class="font-anton tracking-widest text-4xl text-center mb-5">Ubicaci&oacute;n</h1>
+				<div class="grid gap-5 grid-cols-1 md:grid-cols-2">
+					<div class="text-2xl flex justify-center flex-col">
+						<div class="flex items-center gap-2 mb-10">
+							<span class="icon-[bx--map] text-3xl" role="img" aria-hidden="true"></span>
+							<p>Av. 5 de Mayo #123, Col. Centro, CDMX</p>
+						</div>
+						<div class="flex items-center gap-2 mb-10">
+							<span class="icon-[bi--whatsapp]" role="img" aria-hidden="true"></span>
+							<p>55 6905-0287</p>
+						</div>
+					</div>
+					<div class="mapa bg-white w-full h-96">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d469.15453059305446!2d-99.09205143204393!3d19.829954481740817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1720383161101!5m2!1ses-419!2smx" width="600" height="450" class="w-full h-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+</GuestLayout>
