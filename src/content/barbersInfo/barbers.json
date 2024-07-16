@@ -1,8 +1,8 @@
 [
     {
-        "name": "Arturo Jose",
-        "nickname": "Arthur",
-        "description": "Arturo Jose is a master barber with over 10 years of experience. He specializes in fades, tapers, and beard trims. He is also a master at straight razor shaves.",
+        "name": "Javier González",
+        "nickname": "Javi",
+        "description": "Javier es conocido por su precisión y creatividad. Con más de 15 años de experiencia, ha perfeccionado el arte del corte de cabello y el arreglo de barba. Sus clientes lo consideran un verdadero mago, capaz de transformar cualquier look con un simple corte.",
         "image": "barbero_1.webp",
         "socialMedia": [
             "https://instagram.com",
@@ -10,9 +10,9 @@
         ]
     },
     {
-        "name": "Jose",
-        "nickname": "Pepe",
-        "description": "Arturo Jose is a master barber with over 10 years of experience. He specializes in fades, tapers, and beard trims. He is also a master at straight razor shaves.",
+        "name": "Miguel Torres",
+        "nickname": "Mike",
+        "description": "Miguel tiene un enfoque tradicional y sofisticado en el arte del barbería. Con una trayectoria de más de 20 años, domina técnicas clásicas y atemporales. Sus servicios incluyen cortes de cabello y afeitados tradicionales, y su atención al detalle asegura que cada cliente salga con un look impecable y elegante.",
         "image": "barbero_2.jpg",
         "socialMedia": [
             "https://instagram.com",
@@ -20,9 +20,9 @@
         ]
     },
     {
-        "name": "Juan",
-        "nickname": "Chencho",
-        "description": "Arturo Jose is a master barber with over 10 years of experience. He specializes in fades, tapers, and beard trims. He is also a master at straight razor shaves.",
+        "name": "Diego Ramírez",
+        "nickname": "Diego",
+        "description": "Diego es experto en fusionar lo clásico con lo moderno, creando looks únicos que combinan elegancia y tendencia. Con una formación sólida en técnicas tradicionales y un ojo para las últimas modas, Diego se ha ganado la lealtad de sus clientes por su capacidad de ofrecer siempre lo mejor de ambos mundos. Su enfoque profesional y amigable hace que cada visita sea agradable y satisfactoria.",
         "image": "barbero_3.webp",
         "socialMedia": [
             "https://tiktok.com"
